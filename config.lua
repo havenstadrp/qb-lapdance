@@ -24,10 +24,10 @@ Config.BlipCoord = {
 }
 
 -- Locale
-Config.Language						= 'fr'		-- Currently Available: fr, en
+Config.Language						= 'en'		-- Currently Available: fr, en
 -- Locales can be easily created or modified in `qb-lapdance/locales`
 
 -- Misc
-Config.Debug        				= true   	-- If you think something is not working, you can set 'Config.Debug' to true. It will then print a lot of debug information in your console
+Config.Debug        				= false   	-- If you think something is not working, you can set 'Config.Debug' to true. It will then print a lot of debug information in your console
 Config.UpdateChecker                = true      -- Set to false if you don't want to check for resource update on start
-Config.ChangeLog					= true		-- Set to false if you don't want to display the changelog if new version is find
+Config.ChangeLog					= false		-- Set to false if you don't want to display the changelog if new version is find
