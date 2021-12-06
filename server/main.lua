@@ -1,7 +1,7 @@
 ESX = nil
 local QBCore = exports['qb-core']:GetCoreObject()
 
-local CurrentVersion = '1.1' -- Do Not Change This Value
+local CurrentVersion = '1.2' -- Do Not Change This Value
 local NewestVersion = nil 
 local ChangeLogText = nil 
 
@@ -31,7 +31,7 @@ Citizen.CreateThread(function()
 
         Citizen.Wait(1300)
         
-        print('')
+        -- print('')
         if Config.Framework == 'qbcore' then
             print('^8QBCore ^6Lap Dance resource (qb-lapdance)')
         elseif Config.Framework == 'standalone' then
@@ -48,11 +48,11 @@ Citizen.CreateThread(function()
                 print('\n^3Changelog:')
                 print(ChangeLogText)
             end
-            print('')
+            -- print('')
             print('^1Please check the GitHub and download the last update')
             print('^2https://github.com/clementinise/qb-lapdance/releases/latest')
         end
-        print('')
+        -- print('')
     end
 end)
 
